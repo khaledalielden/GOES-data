@@ -18,4 +18,4 @@ X.plot_xray(picked_time, fluxA, fluxb)                          # plot_xray( tim
 pt, pv = X.xray_peaks(fluxA,'C')                                # xray_peaks(  wavelength  , x-ray class  ) 
 
 
-<img src="Xray.jpeg" width="300"/>
+<img src="Xray.jpeg" width="600"/>
