@@ -22,7 +22,7 @@ picked_time, fluxA, fluxb = X.get_data()
 ```
 X.plot_xray(picked_time, fluxA, fluxb)                            
 ```
-**xray_peaks(  wavelength  , x-ray class  )**
+**get xray_peaks(  wavelength  , x-ray class  )**
 ```
 pt, pv = X.xray_peaks(fluxA,'C')                                
 ```
