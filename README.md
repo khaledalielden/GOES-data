@@ -2,7 +2,7 @@
 This code is for downloading and plotting GOES X-ray Flux from Space Weather Prediction Center - NOAA. This is an alternative code rather than using sunpy package.
 
 **To sun the code**
-```
+```ruby
 import goes
 
 start_time = '2023-01-10 00:00'
