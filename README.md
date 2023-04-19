@@ -8,7 +8,6 @@ import goes
 start_time = '2023-1-10 00:00'
 end_time = '2023-01-12 00:30'
 
-#X=observation.goes_xray(start_time, end_time,SatelliteNumber = 17)     # select the time limits and goes satellite number
 
 X=goes.goes_xray(start_time, end_time,SatelliteNumber = 17)     # select the time limits and goes satellite number
 
@@ -19,4 +18,4 @@ X.plot_xray(picked_time, fluxA, fluxb)                          # plot_xray( tim
 pt, pv = X.xray_peaks(fluxA,'C')                                # xray_peaks(  wavelength  , x-ray class  ) 
 
 
-![Alt text](relative%20path/to/Xray.jpeg?raw=true "Title")
+<img src="relative/path/in/repository/to/Xray.jpeg" width="128"/>
